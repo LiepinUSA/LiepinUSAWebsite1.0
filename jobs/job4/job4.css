@@ -140,6 +140,7 @@ header{
 
 .job_view p{
     line-height: 35px;
+    margin-right: 20rem;
 }
 
 .job_contact{
@@ -356,8 +357,14 @@ footer{
 
 
     .relase_job{
-        padding-left: 2rem;
+        display: flex;
+        justify-content: center;
         padding-top: 5rem;
+    }
+
+    .relase_job img{
+        max-width: 75%;
+        height: auto;
     }
     
     .job_view{
@@ -389,6 +396,7 @@ footer{
     
     .job_view p{
         line-height: 35px;
+        margin-right: 0rem;
     }
     
     .job_contact{
